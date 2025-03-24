@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+
+.breadcrumb {
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.breadcrumb span {
+  color: #007185;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-header {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.filter-header h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.filter-options {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+
+.form-check {
+  margin-bottom: 10px;
+}
+
+.form-check-label {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+
+.color-option {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-card .card-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.sort-by {
+  font-size: 14px;
+  color: #555;
+  margin-top: 20px;
+}
+.filter1{
+  padding-right: 20px;
+}
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  height: 100%; 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.card-img-top {
+  width: 100%;
+  height: 400px; 
+  object-fit: fill; 
+  
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-card .card-body {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  
+
+
 }
+
+.product-card .card-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
